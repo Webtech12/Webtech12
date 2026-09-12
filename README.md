@@ -1,107 +1,448 @@
-# Sherwin Samuel
+::: {align="center"}
+# 👋 Hey, I'm Sherwin
 
-**Senior Software Engineer & Team Lead** — AI Platforms · Solution Architecture · Digital Transformation
+### Senior Software Engineer · Technical Lead · AI & Platform Engineering
 
-<p>
-  <a href="https://www.linkedin.com/in/sherwin-samuel-a9a8941a1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:sherwinlukes@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Karachi,%20Pakistan-555555?style=flat-square&logo=googlemaps&logoColor=white" alt="Location">
-  <img src="https://img.shields.io/badge/Open%20to-Remote%20%26%20International-2ea44f?style=flat-square" alt="Availability">
-</p>
+**I build software that has to work in the real world.**
 
----
+`<br/>`{=html}
 
-I build enterprise platforms and lead the teams that ship them. Seven years across PropTech, FinTech, HR SaaS, direct selling and aviation operations — for clients in the US, Germany, Finland, UAE and Pakistan.
+`<a href="https://www.linkedin.com/in/sherwin-samuel-a9a8941a1/">`{=html}
+`<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>`{=html}
+`</a>`{=html} `<a href="mailto:sherwinlukes@gmail.com">`{=html}
+`<img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>`{=html}
+`</a>`{=html}
+`<img src="https://komarev.com/ghpvc/?username=sherwin-samuel&style=for-the-badge&color=blueviolet" alt="Profile views"/>`{=html}
 
-My work has a consistent shape: taking operations that run on spreadsheets, paper and disconnected systems, and turning them into products people actually rely on. Airport activity logging out of silos. Tax filing out of physical offices. Real estate underwriting out of manual comparable analysis.
+`<br/>`{=html}`<br/>`{=html}
 
-Currently leading a team of four, owning architecture and delivery end to end — requirements through system design, APIs, database performance, QA and cloud infrastructure.
+`<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&center=true&vCenter=true&width=760&lines=Turning+messy+problems+into+reliable+systems;Building+AI+that+does+more+than+generate+text;Making+slow+APIs+fast;Designing+systems+for+when+things+go+wrong;Shipping+software+without+the+drama" alt="Typing animation"/>`{=html}
+:::
 
----
+------------------------------------------------------------------------
 
-## What I'm working on
+## 🧠 A little about me
 
-**Reidar** — an AI operating system for real estate investing. I architected the platform core: deal analysis, buyer matching, real-time notifications over WebSockets, and an ingestion pipeline consolidating property data from 7+ institutional sources into a single model with confidence scoring on every valuation.
+I've been writing production software since 2019.
 
-**Mason AI** — an in-product agentic system that scores user health across usage, engagement and risk signals, then triggers interventions across email, SMS and in-app before a customer disengages. Designed the scoring model and the event-driven orchestration behind it.
+My career has taken me through **full-stack engineering, mobile, backend
+architecture, cloud infrastructure, AI systems, QA, and technical
+leadership**. I've worked on products across PropTech, FinTech, SaaS,
+aviation, direct selling, and mobile.
 
-**Digitax AI** — direct FBR integration and end-to-end e-filing for Pakistani taxpayers. Compliance-critical work where a failed submission has legal consequences, so most of the engineering went into failure handling rather than the happy path.
+But honestly, the domain is usually not the interesting part.
 
----
+The interesting part is the problem.
 
-## Engineering
+> **How do we make this faster?**\
+> **How do we make this reliable?**\
+> **What happens when the API goes down?**\
+> **Can we simplify this?**\
+> **Why is this query taking 40 seconds?**\
+> **Do we actually need another service here?**
 
-**Backend**
+That's the kind of engineering I enjoy.
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![Socket.io](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+I like getting close to the problem, understanding how the system
+behaves, making the trade-offs, and then shipping something that
+survives contact with production.
 
-**Frontend & Mobile**
+------------------------------------------------------------------------
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+## ⚡ The kind of engineer I am
 
-**Data**
+```{=html}
+<table>
+```
+```{=html}
+<tr>
+```
+```{=html}
+<td width="50%">
+```
+### 🔧 I like hard problems
 
-![MSSQL](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+Slow APIs.\
+Messy data.\
+Third-party integrations.\
+Long-running workflows.\
+Real-time systems.\
+Production failures.
 
-**Cloud & Delivery**
+If something is difficult to reason about, I'm usually interested.
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+```{=html}
+</td>
+```
+```{=html}
+<td width="50%">
+```
+### 🚀 I like shipping
 
-**Quality**
+Architecture is important.
 
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Appium](https://img.shields.io/badge/Appium-662D91?style=flat-square&logo=appium&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![JMeter](https://img.shields.io/badge/JMeter-D22128?style=flat-square&logo=apachejmeter&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+But eventually someone has to deploy it.
 
----
+I care about CI/CD, automation, observability, testing and making
+releases boring.
 
-## How I work
+```{=html}
+</td>
+```
+```{=html}
+</tr>
+```
+```{=html}
+<tr>
+```
+```{=html}
+<td>
+```
+### 🧩 I care about trade-offs
 
-**Architecture is a decision, not a default.** I pick stacks per project — relational or document stores based on access patterns, GraphQL where clients need selective field access, WebSockets where users need live state rather than polling. Then I document why, so the next engineer doesn't have to reverse-engineer the reasoning.
+I don't pick technologies because they're fashionable.
 
-**Performance is measured, not assumed.** Cut API response times from ~60s to under 2s through indexing, query restructuring, Redis caching and streaming responses. The measurement came first.
+I pick them because they make sense **for the problem**.
 
-**Delivery should be boring.** Replaced manual hour-long releases with CI/CD and zero-downtime deployment — now under 5 minutes. Nobody should be nervous on release day.
+```{=html}
+</td>
+```
+```{=html}
+<td>
+```
+### 🧑‍💻 I stay hands-on
 
-**Codebases outlive the people who wrote them.** SOLID and consistent design patterns across NestJS and .NET services, so developers can rotate between them without a ramp-up tax.
+Leading engineers doesn't mean disappearing into meetings.
 
----
+I still enjoy opening the code, tracing a request and figuring out what
+actually happened.
 
-## Leading
+```{=html}
+</td>
+```
+```{=html}
+</tr>
+```
+```{=html}
+</table>
+```
 
-Leading four engineers, and most of what matters there isn't code.
+------------------------------------------------------------------------
 
-Running code review and standups, owning Jira delivery, and sitting in client requirement discussions to translate what a business actually needs into something buildable. I've conducted 15+ technical interviews and mentor the junior engineers on the team — which mostly means resisting the urge to just fix it myself.
+## 🛠️ My playground
 
-The part I care most about: making sure the people on my team understand *why* a system is shaped the way it is, not just where the files live.
+::: {align="center"}
+### Backend
 
----
+`<img src="https://skillicons.dev/icons?i=nodejs,nestjs,ts,dotnet,cs,laravel,graphql" alt="Backend technologies"/>`{=html}
 
-## Recognition
+### Frontend & Mobile
 
-- **Employee of the Year** — Grids Hub
-- **Highest Achiever Award**
-- **App Development Lead** — Google Developer Student Clubs, Hamdard University
-- **Introducing Generative AI with AWS** · AWS Educate — Cloud, Networking, Security, Databases, Storage
+`<img src="https://skillicons.dev/icons?i=react,nextjs,vue,reactnative" alt="Frontend and mobile technologies"/>`{=html}
 
----
+### Data
 
-<sub>BS Computer and Information Systems, Hamdard University · Karachi, Pakistan</sub>
+`<img src="https://skillicons.dev/icons?i=mysql,mongodb,redis" alt="Data technologies"/>`{=html}
+
+### Cloud & Infrastructure
+
+`<img src="https://skillicons.dev/icons?i=aws,azure,docker,githubactions" alt="Cloud and infrastructure technologies"/>`{=html}
+
+### Testing
+
+`<img src="https://skillicons.dev/icons?i=playwright,postman" alt="Testing technologies"/>`{=html}
+:::
+
+------------------------------------------------------------------------
+
+## 🔥 A few things I'm proud of
+
+::: {align="center"}
+  ----------------------------------- -----------------------------------
+  ⚡ **\~60s → \<2s**                 API response time after database,
+                                      caching and response-delivery work
+
+  🚀 **\~1h → \<5 min**               Release process after CI/CD and
+                                      zero-downtime deployment
+
+  🧠 **7+ sources**                   Institutional property-data sources
+                                      unified into a common model
+
+  👨‍💻 **4 engineers**                  Currently leading a small
+                                      engineering team
+
+  🎯 **15+ interviews**               Technical interviews conducted
+
+  🌍 **5 markets**                    Experience shipping software across
+                                      US, Germany, Finland, UAE &
+                                      Pakistan
+  ----------------------------------- -----------------------------------
+:::
+
+> Numbers are useful. The interesting part is **why they moved**.
+
+------------------------------------------------------------------------
+
+## 🤖 Where AI gets interesting
+
+I'm particularly interested in AI when it becomes part of a **real
+system**, not just a chat box.
+
+I've worked on agentic product features that combine behavioural
+signals, scoring, event-driven orchestration and interventions across
+multiple channels.
+
+The question I find more interesting than:
+
+> *"Can we add AI?"*
+
+is:
+
+> **"Where does AI actually improve the system?"**
+
+That's a much harder question --- and a much more useful one.
+
+------------------------------------------------------------------------
+
+## 🏗️ Systems I've enjoyed building
+
+Not a project catalogue. Just the kinds of systems that have kept me
+interested:
+
+**AI / PropTech**\
+Property-data ingestion, deal analysis, buyer matching, confidence
+scoring and real-time workflows.
+
+**FinTech**\
+Compliance-heavy workflows, government API integrations, tax-return
+generation and e-filing.
+
+**SaaS**\
+People operations, contracts, e-signatures, talent systems and
+AI-assisted evaluation.
+
+**Mobile**\
+React Native applications shipped across iOS and Android, including
+maps, routing, caching and third-party integrations.
+
+**Enterprise**\
+Operational systems where accuracy, traceability and reliability matter
+more than flashy demos.
+
+------------------------------------------------------------------------
+
+## 🧱 How I approach engineering
+
+### 01 --- Understand the problem
+
+Before reaching for a framework, database or architecture diagram,
+understand what we're actually trying to solve.
+
+### 02 --- Find the constraints
+
+Traffic. Data. Latency. Consistency. Cost. Team size. Operational
+complexity.
+
+Constraints are what make architecture interesting.
+
+### 03 --- Make the simplest decision that works
+
+Not every application needs microservices.
+
+Not every API needs GraphQL.
+
+Not every event needs a queue.
+
+Not every problem needs AI.
+
+### 04 --- Measure
+
+If something is slow, measure it.
+
+If something is unreliable, instrument it.
+
+If something is expensive, find out where the money goes.
+
+### 05 --- Ship
+
+A beautiful architecture that never reaches production isn't
+particularly useful.
+
+------------------------------------------------------------------------
+
+## 🧯 Production has taught me a few things
+
+``` text
+              ┌─────────────────────────┐
+              │       USER REQUEST      │
+              └────────────┬────────────┘
+                           │
+                           ▼
+                 ┌───────────────────┐
+                 │     API / APP     │
+                 └─────────┬─────────┘
+                           │
+            ┌──────────────┼──────────────┐
+            ▼              ▼              ▼
+       ┌─────────┐    ┌─────────┐    ┌─────────┐
+       │ Database│    │  Cache  │    │ External│
+       │         │    │  Redis  │    │   API   │
+       └────┬────┘    └────┬────┘    └────┬────┘
+            │              │              │
+            └──────────────┼──────────────┘
+                           ▼
+                    ┌─────────────┐
+                    │  Something  │
+                    │  eventually │
+                    │    fails    │
+                    └──────┬──────┘
+                           │
+                           ▼
+                 ┌───────────────────┐
+                 │ DID WE DESIGN FOR │
+                 │       THIS?       │
+                 └───────────────────┘
+```
+
+That's why I care about:
+
+**timeouts · retries · idempotency · validation · caching · queues ·
+graceful failure · observability · testing**
+
+Because production doesn't care how nice the demo looked.
+
+------------------------------------------------------------------------
+
+## 👥 Engineering is a team sport
+
+I currently lead a team of 4 engineers.
+
+My job isn't to be the smartest person in the room.
+
+It's to help the team make better decisions.
+
+That means code reviews, architecture discussions, mentoring,
+requirements, client conversations, technical interviews, delivery and
+--- sometimes --- jumping into a particularly stubborn bug.
+
+I've learned that good leadership is less about having all the answers
+and more about creating a team where people feel comfortable asking:
+
+**"Why are we doing it this way?"**
+
+------------------------------------------------------------------------
+
+## 📈 The journey
+
+``` text
+2019
+ │
+ ├── Intern
+ │
+ ▼
+Junior Software Engineer
+ │
+ ▼
+Full-Stack Engineer
+ │
+ ├── Web
+ ├── Backend
+ ├── Mobile
+ └── APIs
+ │
+ ▼
+Senior Software Engineer
+ │
+ ├── Architecture
+ ├── Cloud
+ ├── Performance
+ ├── AI
+ └── Production systems
+ │
+ ▼
+Technical Lead
+ │
+ └── Building systems + building engineers
+```
+
+I didn't learn everything from a course.
+
+A lot of it came from being handed a problem and having to figure it
+out.
+
+That's still one of my favourite ways to learn.
+
+------------------------------------------------------------------------
+
+## 🏆 A few milestones
+
+-   **Employee of the Year** --- Grids Hub
+-   **Highest Achiever Award**
+-   **App Development Lead** --- Google Developer Student Clubs
+-   **AWS Educate** --- Cloud, Networking, Security, Databases & Storage
+-   **Introducing Generative AI with AWS**
+
+------------------------------------------------------------------------
+
+## 📊 GitHub
+
+::: {align="center"}
+`<a href="https://github.com/sherwin-samuel">`{=html}
+`<img height="180" src="https://github-readme-stats.vercel.app/api?username=sherwin-samuel&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="Sherwin's GitHub stats"/>`{=html}
+`</a>`{=html} `<a href="https://github.com/sherwin-samuel">`{=html}
+`<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sherwin-samuel&layout=compact&hide_border=true&langs_count=8" alt="Sherwin's top languages"/>`{=html}
+`</a>`{=html}
+
+`<br/>`{=html}`<br/>`{=html}
+
+`<img src="https://streak-stats.demolab.com?user=sherwin-samuel&hide_border=true" alt="GitHub streak"/>`{=html}
+
+`<br/>`{=html}`<br/>`{=html}
+
+`<img src="https://github-readme-activity-graph.vercel.app/graph?username=sherwin-samuel&hide_border=true&area=true" alt="GitHub activity graph"/>`{=html}
+:::
+
+------------------------------------------------------------------------
+
+## 💭 A few opinions
+
+> **Simple systems are underrated.**
+
+> **A database index can be more exciting than a new framework.**
+
+> **The best abstraction is often the one you don't need.**
+
+> **If you can't explain the architecture, you probably don't understand
+> it well enough yet.**
+
+> **Shipping teaches you things architecture diagrams never will.**
+
+------------------------------------------------------------------------
+
+## 🌎 Let's connect
+
+I'm always interested in talking about:
+
+`AI` · `Backend` · `Architecture` · `Distributed Systems` · `Cloud` ·
+`Performance` · `SaaS` · `Developer Experience`
+
+If you're building something technically interesting, feel free to reach
+out.
+
+::: {align="center"}
+### **Build something useful. Then make it better.**
+
+`<br/>`{=html}
+
+`<a href="mailto:sherwinlukes@gmail.com">`{=html}
+`<img src="https://img.shields.io/badge/Email-Sherwin-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Sherwin"/>`{=html}
+`</a>`{=html}
+`<a href="https://www.linkedin.com/in/sherwin-samuel-a9a8941a1/">`{=html}
+`<img src="https://img.shields.io/badge/LinkedIn-Sherwin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Sherwin"/>`{=html}
+`</a>`{=html}
+
+`<br/>`{=html}`<br/>`{=html}
+
+`<sub>`{=html}BS Computer & Information Systems · Hamdard
+University`</sub>`{=html}
+:::

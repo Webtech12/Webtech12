@@ -4,253 +4,225 @@
 
 ### Senior Software Engineer · Technical Lead · AI & Platform Engineering
 
-**I like turning complicated problems into software that just works.**
+**I like turning complicated problems into software that works.**
 
 <br/>
 
 <a href="https://www.linkedin.com/in/sherwin-samuel-a9a8941a1/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="mailto:sherwinlukes@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Say%20hello-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+<img src="https://img.shields.io/badge/Email-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=760&lines=Backend+%E2%80%A2+Cloud+%E2%80%A2+AI+%E2%80%A2+Architecture;I+build+systems+for+the+messy+parts+of+production;Measure+it.+Fix+it.+Ship+it." alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=760&lines=Backend+%E2%80%A2+Cloud+%E2%80%A2+AI+%E2%80%A2+Architecture;Making+slow+systems+fast;Designing+for+when+things+go+wrong;Build+it.+Measure+it.+Ship+it." alt="Typing animation"/>
 
 </div>
 
 ---
 
-## 🧭 What you'll find here
+## 👋 The short version
 
-I'm a software engineer with 7+ years of experience building production systems across **AI, PropTech, FinTech, SaaS, mobile, and enterprise software**.
+I've been building production software since 2019.
 
-These days I spend most of my time somewhere between **architecture and implementation** — designing systems, solving performance problems, working with data and integrations, shipping cloud infrastructure, and helping engineers make good technical decisions.
+These days I work across **backend engineering, architecture, cloud, AI and technical leadership**. I've built systems in PropTech, FinTech, SaaS, mobile and enterprise environments.
 
-I still like being close to the code.
+I'm happiest when the problem is slightly uncomfortable:
 
-That's important to me.
+**messy data · slow APIs · unreliable integrations · complicated workflows · systems that need to scale**
+
+I like getting into the details, figuring out what is actually happening, and leaving the system better than I found it.
 
 ---
 
-## ⚙️ What I enjoy building
+## ⚡ I like this kind of work
 
 <div align="center">
 
-|    🤖 AI Systems     |    ⚡ Backend     |  ☁️ Cloud   |      🧩 Data       |
-| :------------------: | :---------------: | :---------: | :----------------: |
-|  Agentic workflows   |       APIs        | AWS / Azure |   Data modelling   |
-| AI-assisted products | Real-time systems |   Docker    | Query optimization |
-| Scoring & automation |  Queues / events  |    CI/CD    |      Caching       |
-| Product intelligence |   Integrations    | Serverless  |   Data ingestion   |
+**🤖 AI** &nbsp; **⚙️ Backend** &nbsp; **☁️ Cloud** &nbsp; **📊 Data** &nbsp; **🧪 Testing** &nbsp; **🚀 Delivery**
 
 </div>
 
----
-
-## 🔥 A few things I've learned building production software
-
-### Slow is a bug until proven otherwise.
-
-I've taken APIs from roughly **60 seconds to under 2 seconds** by going after the actual bottlenecks — indexing, query optimization, Redis caching and response streaming.
-
-No magic framework.
-
-Just measurement, debugging and a willingness to stare at a query plan longer than is socially acceptable.
-
----
-
-### Production is where architecture gets tested.
-
-A service doesn't care how clean the diagram looked when it was designed.
-
-Networks fail.  
-Dependencies timeout.  
-Data arrives malformed.  
-Queues back up.  
-Users find the edge cases.
-
-So I like systems that are designed with failure in mind — retries, validation, caching, queues, idempotency, graceful degradation and good boundaries.
-
----
-
-### I don't believe in technology for technology's sake.
-
-Microservices aren't automatically better.
-
-GraphQL isn't automatically better.
-
-MongoDB isn't automatically better.
-
-AI isn't automatically better.
-
-The interesting engineering question is:
-
-> **What does this problem actually need?**
-
-Then pick the simplest thing that gets the job done.
-
----
-
-## 🛠️ Things I work with
+<br/>
 
 <div align="center">
 
-### Backend
-
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,ts,dotnet,cs,laravel,graphql" alt="Backend"/>
-
-### Frontend & Mobile
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,reactnative" alt="Frontend and mobile"/>
-
-### Data
-
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,redis" alt="Data"/>
-
-### Cloud & Delivery
-
-<img src="https://skillicons.dev/icons?i=aws,azure,docker,githubactions" alt="Cloud and delivery"/>
-
-### Testing
-
-<img src="https://skillicons.dev/icons?i=playwright,postman" alt="Testing"/>
+<img src="./assets/architecture-flow.gif" width="850" alt="Animated system architecture flow"/>
 
 </div>
 
 ---
 
-## 🧪 A little taste of the work
+## 🔥 Things I care about
 
-Rather than turning this into a project catalogue, here's the short version:
+<table>
+<tr>
+<td width="50%">
 
-**🏠 PropTech**  
-AI-assisted real estate analysis, property-data ingestion, buyer matching, confidence scoring and real-time workflows.
+### Measure first
 
-**🤖 AI / SaaS**  
-Agentic product features that combine behavioural signals, scoring and event-driven interventions.
+I've taken an API from roughly **60 seconds to under 2 seconds**.
 
-**🧾 FinTech**  
-Tax-return generation, direct government API integration and end-to-end e-filing workflows.
+The answer wasn't a magic framework.
 
-**📱 Mobile**  
-React Native applications across iOS and Android, including maps, routing, caching and third-party integrations.
+It was finding the bottleneck and fixing the database queries, indexes, caching and response path.
 
-**✈️ Enterprise**  
-Operational software built to replace disconnected, manual workflows with centralized systems.
+</td>
+<td width="50%">
+
+### Make shipping boring
+
+I've replaced manual, hour-long release processes with **CI/CD and zero-downtime deployments**, bringing releases down to **under 5 minutes**.
+
+If release day feels like an event, I'd like to fix that.
+
+</td>
+</tr>
+<tr>
+<td>
+
+### Design for failure
+
+External APIs fail.
+
+Queues back up.
+
+Data gets weird.
+
+Users find edge cases.
+
+Production is not the happy path, so systems shouldn't be designed like it is.
+
+</td>
+<td>
+
+### Keep it understandable
+
+I like architecture that another engineer can pick up, reason about and change without needing a guided tour from the person who built it.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📐 How I approach a problem
+## 🧰 My toolbox
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,ts,dotnet,cs,laravel,graphql,react,nextjs,vue,reactnative,mysql,mongodb,redis,aws,azure,docker,githubactions,playwright,postman" alt="Technology stack"/>
+
+</div>
+
+---
+
+## 🧩 A few areas I've worked in
+
+**🏠 PropTech** — property data, deal analysis, matching, ingestion pipelines and real-time workflows.
+
+**🤖 AI / SaaS** — agentic product features, behavioural scoring and automated interventions.
+
+**🧾 FinTech** — compliance-heavy workflows, government integrations and e-filing.
+
+**📱 Mobile** — React Native apps across iOS and Android, including maps, routing and third-party services.
+
+**✈️ Enterprise** — operational systems replacing disconnected, manual processes.
+
+That's enough project history for a README.
+
+If you want the full story, that's what the code and LinkedIn are for.
+
+---
+
+## 🚀 Shipping > talking about shipping
+
+<div align="center">
+
+<img src="./assets/shipping.gif" width="780" alt="Animated deployment terminal"/>
+
+</div>
+
+I enjoy the whole path:
+
+`idea → architecture → code → tests → deployment → production → debugging → improvement`
+
+The last two steps are usually where the interesting stuff happens.
+
+---
+
+## 🧠 How I make engineering decisions
+
+I don't have a favourite architecture that I try to force onto every project.
+
+I ask:
 
 ```text
-             ┌──────────────────┐
-             │   THE PROBLEM    │
-             └────────┬─────────┘
-                      │
-                      ▼
-             ┌──────────────────┐
-             │ Understand it    │
-             │ before solving it│
-             └────────┬─────────┘
-                      │
-                      ▼
-             ┌──────────────────┐
-             │ Find constraints │
-             │ data • scale •   │
-             │ latency • cost   │
-             └────────┬─────────┘
-                      │
-                      ▼
-             ┌──────────────────┐
-             │ Make the trade-  │
-             │ offs explicit    │
-             └────────┬─────────┘
-                      │
-                      ▼
-             ┌──────────────────┐
-             │ Build the simple │
-             │ thing first      │
-             └────────┬─────────┘
-                      │
-                      ▼
-             ┌──────────────────┐
-             │ Measure it       │
-             └────────┬─────────┘
-                      │
-                      ▼
-             ┌──────────────────┐
-             │      SHIP 🚀     │
-             └──────────────────┘
+What are we actually solving?
+          ↓
+What are the constraints?
+          ↓
+What will change as we scale?
+          ↓
+What is the simplest design that works?
+          ↓
+How will we know when it breaks?
+          ↓
+Ship.
 ```
+
+Not every application needs microservices.
+
+Not every API needs GraphQL.
+
+Not every workflow needs a queue.
+
+Not every product needs AI.
+
+**Good engineering is mostly knowing when you don't need something.**
 
 ---
 
-## 👨‍💻 Engineering + leadership
+## 🤝 Engineering + leadership
 
-I currently lead a small engineering team while staying hands-on with architecture, code reviews, requirements, QA, delivery and production problems.
+I currently lead a team of engineers while staying hands-on with architecture, code reviews, requirements, QA, delivery and production problems.
 
 I've conducted 15+ technical interviews and spend a lot of time mentoring engineers.
 
-My favourite kind of leadership is probably the least glamorous:
+The part of leadership I enjoy most is helping someone go from:
 
-**help someone understand the problem well enough that they don't need your help next time.**
+> "I don't know how to solve this."
 
----
+to:
 
-## 📈 The journey
+> "I know how to approach this."
 
-<div align="center">
-
-**2019**  
-`Intern`
-
-⬇️
-
-**Software Engineer**  
-`Web · Backend · Mobile`
-
-⬇️
-
-**Senior Software Engineer**  
-`Architecture · Cloud · Performance · AI`
-
-⬇️
-
-**Technical Lead**  
-`Systems · Delivery · People`
-
-</div>
-
-The stack has changed.
-
-The habit hasn't:
-
-> **There's a problem. Figure it out. Build it. Ship it. Improve it.**
+That's a much better outcome than simply fixing it for them.
 
 ---
 
-## 🧠 Currently curious about
+## 🔭 Currently curious about
 
-`Agentic AI` · `Distributed Systems` · `Event-Driven Architecture` · `Developer Experience` · `Performance` · `Cloud Infrastructure` · `Better Testing`
+`Agentic AI`
 
-I'm especially interested in AI that is **connected to real systems and real workflows** — not AI for the sake of putting an AI badge on a product.
+`Distributed systems`
+
+`Event-driven architecture`
+
+`Developer experience`
+
+`Performance`
+
+`Cloud infrastructure`
+
+`Better testing`
+
+Especially the places where these things overlap.
 
 ---
 
-## 🏆 Outside the commit history
-
-- 🏆 Employee of the Year — Grids Hub
-- 🏆 Highest Achiever Award
-- 👨‍💻 App Development Lead — Google Developer Student Clubs
-- ☁️ AWS Educate — Cloud, Networking, Security, Databases & Storage
-- 🤖 Introducing Generative AI with AWS
-
----
-
-## 💬 A few opinions
+## 💭 A few opinions
 
 > **Simple systems are underrated.**
 
@@ -258,7 +230,7 @@ I'm especially interested in AI that is **connected to real systems and real wor
 
 > **If everything is a microservice, nothing is simple.**
 
-> **The best abstraction is the one the next engineer can understand.**
+> **The best abstraction is the one the next engineer understands.**
 
 > **Shipping teaches you things architecture diagrams can't.**
 
@@ -268,21 +240,21 @@ I'm especially interested in AI that is **connected to real systems and real wor
 
 ## Let's build something useful.
 
-If you're working on an interesting engineering problem, an ambitious product, or a system that is currently doing something it absolutely should not be doing —
+If you're working on an interesting engineering problem, an ambitious product, or a system currently doing something it absolutely should not be doing —
 
 **say hello.**
 
 <br/>
 
 <a href="mailto:sherwinlukes@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Sherwin-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+<img src="https://img.shields.io/badge/Email-Sherwin-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="https://www.linkedin.com/in/sherwin-samuel-a9a8941a1/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <br/><br/>
 
-<sub>BS Computer & Information Systems · Hamdard University</sub>
+<sub>Build something useful. Then make it better.</sub>
 
 </div>

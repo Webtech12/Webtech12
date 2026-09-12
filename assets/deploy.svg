@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" width="900" height="310" font-family="JetBrains Mono, Fira Code, Cascadia Code, Consolas, monospace" font-size="14">
+  <defs>
+    <clipPath id="type1">
+      <rect x="48" y="76" width="0" height="24">
+        <animate attributeName="width" values="0;0;250;250;250" keyTimes="0;0.02;0.14;0.95;1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect x="20" y="14" width="860" height="282" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="44" cy="38" r="5" fill="#ff5f56"/>
+  <circle cx="62" cy="38" r="5" fill="#ffbd2e"/>
+  <circle cx="80" cy="38" r="5" fill="#27c93f"/>
+  <text x="450" y="43" text-anchor="middle" fill="#8b949e" font-size="12">friday · 4:47 pm · release day, which is no longer a thing</text>
+
+  <g fill="#e6edf3">
+    <!-- line 1: typed -->
+    <text x="48" y="94" clip-path="url(#type1)"><tspan fill="#3fb950">$</tspan> git push origin main</text>
+    <rect x="48" y="80" width="8" height="17" fill="#e6edf3">
+      <animate attributeName="x" values="60;60;236;236;236" keyTimes="0;0.02;0.14;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.14;0.16;0.17;1" dur="12s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- line 2 -->
+    <g><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.19;0.2;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <text x="48" y="122"><tspan fill="#3fb950">✔</tspan> ci  <tspan fill="#8b949e">lint · unit · integration · build</tspan></text>
+    </g>
+
+    <!-- line 3 -->
+    <g><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.26;0.27;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <text x="48" y="150"><tspan fill="#3fb950">✔</tspan> image built  <tspan fill="#8b949e">pushed to registry</tspan></text>
+    </g>
+
+    <!-- line 4: rolling deploy with progress bar -->
+    <g><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.34;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <text x="48" y="178"><tspan fill="#58a6ff">→</tspan> rolling out</text>
+      <rect x="190" y="166" width="220" height="14" rx="3" fill="#161b22" stroke="#30363d"/>
+      <rect x="190" y="166" width="0" height="14" rx="3" fill="#58a6ff">
+        <animate attributeName="width" values="0;0;220;220;220" keyTimes="0;0.34;0.48;0.95;1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+      <text x="424" y="178" fill="#8b949e">old pods drain · new pods serve · 0 dropped requests</text>
+    </g>
+
+    <!-- line 5 -->
+    <g><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.51;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <text x="48" y="206"><tspan fill="#3fb950">✔</tspan> health checks green  <tspan fill="#8b949e">p95 under 2s · error rate flat</tspan></text>
+    </g>
+
+    <!-- line 6 -->
+    <g><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.58;0.59;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <text x="48" y="234"><tspan fill="#3fb950">✔</tspan> released  <tspan fill="#8b949e">under 5 minutes · nobody noticed · that is the point</tspan></text>
+    </g>
+
+    <!-- line 7: prompt + blinking cursor -->
+    <g><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.67;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <text x="48" y="270"><tspan fill="#3fb950">$</tspan></text>
+      <rect x="64" y="256" width="8" height="17" fill="#e6edf3">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>

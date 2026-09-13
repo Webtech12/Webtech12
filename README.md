@@ -4,7 +4,7 @@
 
 **Senior Software Engineer · Tech Lead · Solution Architect**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2600&pause=900&center=true&vCenter=true&width=760&color=58A6FF&lines=I+take+messy+problems+and+ship+systems+that+survive+production.;First+system+I+ever+worked+on+ran+an+airport.;60-second+API+%E2%86%92+under+2+seconds.+No+new+framework+involved.;Hour-long+releases+%E2%86%92+under+5+minutes.+Nobody+notices.+That's+the+point.;Now+I+also+get+paid+to+break+things." alt="typing intro"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2600&pause=900&center=true&vCenter=true&width=760&color=58A6FF&lines=I+take+messy+problems+and+ship+systems+that+survive+production.;Measure+first.+Then+fix+the+thing+that+is+actually+slow.;Design+the+failure+path+before+the+happy+path.;Releases+nobody+notices.+That's+the+point.;Now+I+also+get+paid+to+break+things." alt="typing intro"/>
 
 <br/>
 
@@ -14,7 +14,7 @@
 &nbsp;
 <img src="https://img.shields.io/badge/Karachi-UTC%2B5-3fb950?style=for-the-badge&logo=googlemaps&logoColor=white"/>
 
-<sub>Shipped for clients in &nbsp;:us: &nbsp;:de: &nbsp;:finland: &nbsp;:united_arab_emirates: &nbsp;:pakistan:</sub>
+<sub>Shipped for teams in &nbsp;:us: &nbsp;:de: &nbsp;:finland: &nbsp;:united_arab_emirates: &nbsp;:pakistan:</sub>
 
 <br/><br/>
 
@@ -26,9 +26,9 @@
 
 I've been building production software since 2019. Seven years, five industries, a lot of 2 a.m. incidents.
 
-Today I lead a team of four at **Quantum Skye**, owning architecture and delivery across two products end to end: requirements, system design, APIs, database performance, cloud infrastructure and the release itself. Since mid-2026 I also own QA for enterprise direct-selling platforms at **Immunotec**, which means I now spend part of my week trying to break the kind of thing I spend the rest of my week building.
+I lead a small team and own architecture and delivery end to end: requirements, system design, APIs, database performance, cloud infrastructure and the release itself. I also own QA on a separate platform, which means I spend part of my week trying to break the kind of thing I spend the rest of my week building. Both halves make the other one better.
 
-I'm at my best when the problem is a bit uncomfortable. Data from seven sources that disagree with each other. An endpoint that takes a minute. A government API that returns errors nobody documented. A release process that only one person understands.
+I'm at my best when the problem is a bit uncomfortable. Data sources that disagree with each other. An endpoint that takes a minute. A third-party API that returns errors nobody documented. A release process only one person understands.
 
 I like finding out what is *actually* happening, fixing that, and leaving the system simpler than I found it.
 
@@ -39,38 +39,6 @@ I like finding out what is *actually* happening, fixing that, and leaving the sy
 </div>
 
 <br/>
-
-## How the story goes
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'cScale0': '#6e4fc4', 'cScale1': '#2a5db5', 'cScale2': '#a2691b', 'cScale3': '#1c6a72', 'cScale4': '#b83280', 'cScaleLabel0': '#fff', 'cScaleLabel1': '#fff', 'cScaleLabel2': '#fff', 'cScaleLabel3': '#fff', 'cScaleLabel4': '#fff' }}}%%
-timeline
-    title Seven years, roughly in order
-    2019 : Intern at Alisons Technology, promoted in 30 days
-         : Airport operations platforms for Sharjah and Dubai, under Serco
-    2020 : Full stack at Grids Hub, Finnish clients
-         : The mobile dev leaves. I inherit mobile.
-         : Employee of the Year
-    2021 : Software Engineer at Quantum Skye
-         : Reimeter (PropTech), StyleXchange (NFT marketplace), Islamabad Today (news app)
-    2023 : Senior Engineer and Team Lead
-         : Reidar and Mason AI, Digitax AI, Napoleon HR
-         : 60s API → under 2s. Hour-long releases → under 5 min
-    2026 : QA ownership at Immunotec
-         : Playwright, Appium, JMeter. Both sides of the bug report.
-```
-
-**2019.** My first real job was an internship at Alisons Technology in Karachi. A month in, they made me a junior engineer and put me on ATMARS and ATLOG, the operations logging platforms for Sharjah and Dubai airports. Air traffic controllers used the screens I built to record what was happening on the ground. That's where I learned that a slow report isn't an inconvenience, it's an operational problem, and that the fix is usually an index and a better join, not a rewrite.
-
-**2020.** At Grids Hub I was the primary developer from the Pakistan side for four Finnish client products. Then our only mobile developer left. Nobody else did mobile. I learned React Native from zero and had apps in both stores within months. I also built Dhobi Aya, the company's on-demand laundry startup, alone: customer app, rider app, admin panel, website. I got Employee of the Year, which I mostly attribute to saying yes to the mobile thing.
-
-**2021.** Joined Quantum Skye. Built the first production version of Reimeter, an AI real estate deal analysis platform, including the ingestion layer that turned inconsistent third-party property data into one model. Built an NFT marketplace for a German client that had to stay usable when OpenSea was slow or down. Shipped a React Native news app solo, architecture through store release.
-
-**2023.** Promoted to Senior Engineer and Team Lead. Reimeter became Reidar. I designed the core platform, a pipeline consolidating property data from seven-plus institutional sources with confidence scoring, and Mason, an in-product agent that watches usage and risk signals and intervenes before a user churns. On the side: Digitax, direct integration with Pakistan's tax authority for end-to-end e-filing, and Napoleon, an HR platform with AI-assisted candidate evaluation.
-
-**2026.** Took on QA ownership at Immunotec for platforms built on Exigo: commissions, checkout, enrollment, genealogy. Playwright for web, Appium for mobile, JMeter for load. After years of being the engineer whose code got tested, being the person writing the tests has changed how I design APIs. Every error path I used to skip is now a test case I have to write.
-
-<div align="center"><img src="./assets/divider.svg" width="900" alt=""/></div>
 
 ## How I approach a problem
 
@@ -93,11 +61,38 @@ flowchart LR
     style C fill:#a2691b,stroke:#e3b341,color:#fff
 ```
 
+Before I draw a single box, this is what I'm actually looking at:
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#161b22', 'primaryTextColor': '#e6edf3', 'primaryBorderColor': '#30363d', 'lineColor': '#8b949e', 'fontFamily': 'JetBrains Mono, Consolas, monospace', 'cScale0': '#6e4fc4', 'cScale1': '#2a5db5', 'cScale2': '#a2691b', 'cScale3': '#1c6a72', 'cScale4': '#b83280', 'cScaleLabel0': '#fff', 'cScaleLabel1': '#fff', 'cScaleLabel2': '#fff', 'cScaleLabel3': '#fff', 'cScaleLabel4': '#fff' }}}%%
+mindmap
+  root((a new problem))
+    People
+      who is waiting on this
+      what happens if it is late
+      who maintains it after me
+    Data
+      where it comes from
+      how much of it is wrong
+      what we do when sources disagree
+    Failure
+      everything we do not own
+      timeouts · retries · fallbacks
+      how we find out before the customer does
+    Delivery
+      the thinnest useful slice
+      how it gets to production
+      how it gets rolled back
+    Cost
+      what it adds to the system
+      what it lets us delete
+```
+
 The questions I actually ask in the first meeting:
 
 - **Who is waiting on this, and what happens if it's late?** A tax return and a news feed have very different failure budgets.
-- **What data do we trust, and how much?** On Reidar, seven sources disagreed about the same house. The answer wasn't picking one. It was a confidence score that told the user how much to trust the number.
-- **What already exists that we're replacing?** The airport systems replaced paper and spreadsheets. The first version had to be at least as easy as the spreadsheet or nobody would use it.
+- **What data do we trust, and how much?** When two sources disagree about the same record, the answer usually isn't picking one. It's telling the user how confident we are.
+- **What already exists that we're replacing?** If the first version isn't at least as easy as the spreadsheet it replaces, nobody will use it.
 - **What will change in six months?** Not to build for it now, but to avoid painting ourselves into a corner.
 - **How will we know it's broken before the customer tells us?**
 
@@ -130,87 +125,74 @@ Good engineering is mostly knowing when you don't need something.
 
 <div align="center"><img src="./assets/divider.svg" width="900" alt=""/></div>
 
-## Two systems, drawn honestly
+## Design for the day it breaks
 
-### Reidar and Mason: property data from seven sources into one answer
+External APIs fail. Queues back up. Data gets weird. Users find edge cases. Production is not the happy path, so I don't design as if it is.
 
-The hard part of PropTech isn't the UI. It's that every data source describes the same property slightly differently, and some of them are wrong.
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#161b22', 'primaryTextColor': '#e6edf3', 'primaryBorderColor': '#30363d', 'lineColor': '#8b949e', 'clusterBkg': '#0d1117', 'clusterBorder': '#30363d', 'titleColor': '#e6edf3', 'fontFamily': 'JetBrains Mono, Consolas, monospace' }}}%%
-flowchart TB
-    subgraph SRC["institutional property data · 7+ sources"]
-        direction LR
-        s1[("source A")] ~~~ s2[("source B")] ~~~ s3[("source C")] ~~~ s4[("… ×7")]
-    end
-    SRC --> ING["ingestion workers<br/>normalise · dedupe · reconcile conflicts"]
-    ING --> CS["confidence scoring<br/><i>how much should you trust this valuation?</i>"]
-    CS --> DB[("unified property model")]
-    DB --> DA["deal analysis"]
-    DB --> BM["buyer matching"]
-    DA --> API
-    BM --> API
-    API["NestJS API<br/>REST · WebSockets · Redis cache"]
-    API --> WEB["Next.js app"]
-    API --> ADM["admin tooling"]
-    API -. "usage · engagement · risk events" .-> SIG
-
-    subgraph MASON["Mason · the agent that notices you leaving"]
-        direction LR
-        SIG["signals"] --> SCORE["score the user"] --> DEC{"disengaging?"}
-        DEC -->|"yes"| ACT["intervene<br/>email · SMS · in-app"]
-        DEC -->|"no"| WAIT["keep watching"]
-    end
-
-    style CS fill:#a2691b,stroke:#e3b341,color:#fff
-    style API fill:#2a5db5,stroke:#58a6ff,color:#fff
-    style DB fill:#1c6a72,stroke:#3ddbd9,color:#fff
-    style ACT fill:#6e4fc4,stroke:#bc8cff,color:#fff
-```
-
-The API in that diagram is the one that used to take about a minute. It now responds in under two seconds. Nothing was rewritten. I profiled it, fixed the queries, added the indexes that should have been there, cached the expensive lookups in Redis and streamed the response instead of buffering it.
-
-```mermaid
-%%{init: {'theme': 'base', 'xyChart': {'width': 700, 'height': 300}, 'themeVariables': { 'xyChart': { 'backgroundColor': 'transparent', 'titleColor': '#e6edf3', 'xAxisLabelColor': '#8b949e', 'xAxisTitleColor': '#8b949e', 'xAxisTickColor': '#30363d', 'xAxisLineColor': '#30363d', 'yAxisLabelColor': '#8b949e', 'yAxisTitleColor': '#8b949e', 'yAxisTickColor': '#30363d', 'yAxisLineColor': '#30363d', 'plotColorPalette': '#58a6ff' } }}}%%
-xychart-beta
-    title "The same endpoint, before and after (seconds)"
-    x-axis ["before: one query per row", "indexes", "+ query rewrite", "+ Redis cache", "+ streamed response"]
-    y-axis "response time, seconds" 0 --> 65
-    bar [60, 31, 12, 4, 1.8]
-```
-
-<sub>The intermediate bars are from memory rather than a saved benchmark. The first and last are the ones I'd put my name on.</sub>
-
-### Digitax: filing a tax return with an API that doesn't always answer
-
-Every state in this diagram exists because it happened in production at least once.
+Here's how I treat every call to something I don't own. The happy path is one line. The rest is the job.
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#161b22', 'primaryTextColor': '#e6edf3', 'primaryBorderColor': '#30363d', 'lineColor': '#8b949e', 'fontFamily': 'JetBrains Mono, Consolas, monospace' }}}%%
 stateDiagram-v2
     direction LR
-    [*] --> Drafted: return generated from salary data
-    Drafted --> Validated: rules pass
-    Drafted --> NeedsFix: rules fail
-    NeedsFix --> Drafted: taxpayer corrects
-    Validated --> Submitting: send to FBR
-    Submitting --> Accepted: acknowledged
-    Submitting --> Retrying: timeout or 5xx
-    Retrying --> Submitting: backoff, then again
-    Retrying --> Failed: retries exhausted
-    Submitting --> Rejected: FBR says no
-    Rejected --> NeedsFix: show the real reason
-    Failed --> Drafted: human looks at it
-    Accepted --> [*]
+    [*] --> Calling: request with a deadline
+    Calling --> Done: 2xx
+    Calling --> Retrying: timeout or 5xx
+    Retrying --> Calling: backoff with jitter
+    Retrying --> Degraded: retries exhausted
+    Calling --> Rejected: 4xx
+    Rejected --> Surfaced: show the real reason, not "error"
+    Degraded --> Served: cached or partial answer
+    Degraded --> Queued: park it, retry later
+    Queued --> Calling: worker picks it up
+    Served --> Alerted: someone gets paged
+    Queued --> Alerted: dead letter after N tries
+    Done --> [*]
+    Surfaced --> [*]
+    Alerted --> [*]
 ```
 
-The happy path is one line. The other eleven are the job. A failed submission here is a real person with a real deadline, so "it errored" was never an acceptable end state.
+The rules behind it:
+
+- **Every call has a timeout.** No exceptions. A call without one is a call that can hang forever.
+- **Retries have backoff and a ceiling.** Retrying instantly turns a hiccup into an outage.
+- **Degraded beats down.** A cached answer, a partial page or a "we'll email you" is almost always better than a spinner.
+- **The user sees the real reason.** "Something went wrong" is a bug report waiting to happen.
+- **Someone finds out.** If a failure path ends without a metric or an alert, it's not finished.
 
 <div align="center"><img src="./assets/divider.svg" width="900" alt=""/></div>
 
-## What shipping looks like
+## Measure first
 
-Release day used to be an hour of one person carefully doing things in the right order. Now it's this:
+I've taken an endpoint from about a minute down to under two seconds. The fix wasn't a new framework or a rewrite. It was profiling it, fixing the queries, adding the indexes that should have been there, caching the expensive lookups and streaming the response instead of buffering it.
+
+That's the pattern nearly every time. The slow thing is rarely the thing people assume is slow.
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#161b22', 'primaryTextColor': '#e6edf3', 'primaryBorderColor': '#30363d', 'lineColor': '#8b949e', 'fontFamily': 'JetBrains Mono, Consolas, monospace' }}}%%
+flowchart LR
+    S(["it's slow"]) --> M["measure it<br/><i>p95, not the average</i>"]
+    M --> W{"where does<br/>the time go?"}
+    W -->|"database"| Q["query plan · indexes · N+1"]
+    W -->|"network"| N["timeouts · payload size · round trips"]
+    W -->|"compute"| C["cache it · batch it · move it async"]
+    W -->|"the client"| U["stream it · paginate it · render less"]
+    Q --> R["measure again"]
+    N --> R
+    C --> R
+    U --> R
+    R -->|"still slow"| W
+    R -->|"fast enough"| F(["stop. don't over-optimise."])
+    style S fill:#3a1a1a,stroke:#f85149,color:#fff
+    style F fill:#1c6a72,stroke:#3ddbd9,color:#fff
+    style W fill:#a2691b,stroke:#e3b341,color:#fff
+```
+
+<div align="center"><img src="./assets/divider.svg" width="900" alt=""/></div>
+
+## Make shipping boring
+
+Release day used to be an hour of one person carefully doing things in the right order. I've replaced that with CI and zero-downtime deploys that take under five minutes. Now it looks like this:
 
 <div align="center">
 <img src="./assets/deploy.svg" width="900" alt="Animated terminal: git push, CI passes, image built, rolling deploy with zero downtime, health checks green, released in under five minutes."/>
@@ -220,13 +202,13 @@ Release day used to be an hour of one person carefully doing things in the right
 %%{init: {'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel': true, 'mainBranchName': 'main'}, 'themeVariables': { 'git0': '#58a6ff', 'git1': '#bc8cff', 'gitBranchLabel0': '#0d1117', 'gitBranchLabel1': '#0d1117', 'commitLabelColor': '#e6edf3', 'commitLabelBackground': '#161b22', 'tagLabelColor': '#0d1117', 'tagLabelBackground': '#3fb950', 'tagLabelBorder': '#3fb950' }}}%%
 gitGraph
     commit id: "prod"
-    branch feat/buyer-matching
-    checkout feat/buyer-matching
+    branch feat/the-thing
+    checkout feat/the-thing
     commit id: "thin slice"
     commit id: "tests for the ugly cases"
     commit id: "review notes"
     checkout main
-    merge feat/buyer-matching id: "CI green, auto deploy" tag: "v2.14"
+    merge feat/the-thing id: "CI green, auto deploy" tag: "v2.14"
     commit id: "watch p95 for a day"
     commit id: "small fix" type: HIGHLIGHT
     commit id: "boring again"
@@ -271,9 +253,15 @@ Also MSSQL, WebSockets, serverless, queues, event-driven processing, and the And
 
 <div align="center"><img src="./assets/divider.svg" width="900" alt=""/></div>
 
+## Building it and breaking it
+
+For years I was the engineer whose code got tested. Now I also write the tests: Playwright for web, Appium for mobile, JMeter for load, and the kind of API tests that send the wrong thing on purpose.
+
+It changed how I design. Every error path I used to skip is now a test case I have to write, so I stopped skipping them.
+
 ## Leading, briefly
 
-I lead four engineers and stay hands-on: architecture, code review, requirements, QA, delivery, and whatever is on fire. I've run 15+ technical interviews and spend a lot of time mentoring.
+I lead a small team and stay hands-on: architecture, code review, requirements, QA, delivery, and whatever is on fire. I've run 15+ technical interviews and spend a lot of time mentoring.
 
 The part I enjoy most is watching someone go from
 
